@@ -12,9 +12,9 @@ Alternatively, you could use the -A switch which enables version detection among
 The previous scan format will allow you to answer this question. Be sure to check the IP address.
 ********************************
 
-## Flag 3: What was the last CVE recorded for this MySQL version in 2020. 
+## Flag 3: What was the last CVE recorded for this MySQL version in 2020? 
 
-For this question, I researched commands that would find this information for me. It appears that nmap has some options that will try to detect CVEs based on the version of the software running. However, I found this approach unfruitful. I finally found the answer by using [Mitre's CVE search engine](https://cve.mitre.org/cve/search_cve_list.html). Once on the site, I entered `mysql <version>`. I entered the first result to get the correct answer. 
+For this question, I researched commands that would find this information for me. It appears that nmap has some options that will try to detect CVEs based on the version of the software running. However, I found this approach unfruitful. I finally found the answer by using [Mitre's CVE search engine](https://cve.mitre.org/cve/search_cve_list.html). Once on the site, I entered `mysql <version>`. The first result gave me the correct answer. 
 ********************************
 ********************************
 
